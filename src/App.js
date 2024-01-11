@@ -20,7 +20,7 @@ const App = () => {
       setJsonData(null);
     }
   };
-
+ 
   return (
    
     <div style={{ textAlign: 'center' }}>
