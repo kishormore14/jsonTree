@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jsonTree/static/css/main.c6031a5f.css",
+    "main.js": "/jsonTree/static/js/main.e61e7e8b.js",
+    "static/js/787.5984c190.chunk.js": "/jsonTree/static/js/787.5984c190.chunk.js",
+    "static/media/tree.png": "/jsonTree/static/media/tree.46b02d7e758fc4246545.png",
+    "index.html": "/jsonTree/index.html",
+    "main.c6031a5f.css.map": "/jsonTree/static/css/main.c6031a5f.css.map",
+    "main.e61e7e8b.js.map": "/jsonTree/static/js/main.e61e7e8b.js.map",
+    "787.5984c190.chunk.js.map": "/jsonTree/static/js/787.5984c190.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6031a5f.css",
+    "static/js/main.e61e7e8b.js"
+  ]
+}
