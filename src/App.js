@@ -16,7 +16,7 @@ const App = () => {
       const parsedData = JSON.parse(jsonInput);
       setJsonData(parsedData);
     } catch (error) {
-      console.error('Invalid JSON format:', error);
+      alert('Please check JSON format : ⚠️');
       setJsonData(null);
     }
   };

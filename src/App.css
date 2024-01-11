@@ -3,6 +3,13 @@
     fill: rgb(154,77,1) !important;
     
 }
+.wordtune-suggestions-container-block {
+    border: 0 !important;
+  }
+  
+  [wordtune-suggestions-container-block] {
+    border: 0 !important; }
+  
 
 .rd3t-leaf-node {
  

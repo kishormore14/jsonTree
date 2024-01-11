@@ -23,12 +23,9 @@ const JsonTreeVisualization = ({ jsonData }) => {
     }
   };
   const containerStyle = {
-    // boxShadow: 'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px',
-    // boxShadow:'rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px',
-    marginBottom:"10px",
+     marginBottom:"10px",
     
     borderBottom: '2px solid rgb(154,77,1)'
-    // Add other styles as needed
   };
   const [hoveredNode, setHoveredNode] = useState(null);
   const [searchValue, setSearchValue] = useState('');
@@ -210,7 +207,7 @@ const JsonTreeVisualization = ({ jsonData }) => {
       </div>
 
 
-      <div style={containerStyles} ref={treeContainerRef} className='kisjdj' >
+      <div style={containerStyles} ref={treeContainerRef}  >
         <Tree
           data={treeData}
           orientation="horizontal"
